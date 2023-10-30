@@ -1,0 +1,55 @@
+html {
+  font-family: "JetBrains Mono",monospace;
+  text-align: center;
+  background-color: rgba(248, 212, 218, 0.452);
+}
+
+h1,
+.shopping-list {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 400px;
+}
+
+.shopping-list {
+  margin-top: 50px;
+  background-color: white;
+  border: 2px dashed black;
+}
+
+.delete {
+  background: transparent;
+  border: none;
+  color: red;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+ul {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  padding: 0;
+  flex-direction: column;
+}
+.inp{
+  font-family: "JetBrains Mono",monospace;
+}
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+.card {
+ align-items: center;
+  margin-top: 50px;
+  border-radius: 30px;
+  background: #e0dbdb;
+  box-shadow: 15px 15px 30px rgb(203, 201, 201),
+              -15px -15px 30px rgb(240, 237, 237);
+ }
+ 
+ 
